@@ -1,8 +1,7 @@
-# flower_image_generator
-# 🌸 Flower Image Generator with Stable Diffusion
+# 🌸 Flower Image Generator
 
 This project uses **Hugging Face Diffusers** and **Stable Diffusion v1.5** to generate AI-based flower images with fun facts.  
-Built with Jupyter widgets (`ipywidgets`) for an interactive UI.
+Built with **Jupyter widgets (`ipywidgets`)** for an interactive and user-friendly interface.
 
 ---
 
@@ -11,15 +10,31 @@ Built with Jupyter widgets (`ipywidgets`) for an interactive UI.
 - Choose from **styles**: Realistic, Cartoon, Oil Painting 🎨  
 - Fun facts for each flower 💡  
 - Download generated images directly 📥  
+- Supports multiple flower types with diverse visual representations  
+- Lightweight UI suitable for notebooks and local experimentation  
 
 ---
 
-## 🛠️ Installation
+## 🛠 Tech Stack
+- **Python 3.9+**  
+- **Hugging Face Diffusers** for Stable Diffusion  
+- **PyTorch** for model backend  
+- **IPython Widgets (`ipywidgets`)** for interactive UI  
+- **PIL / OpenCV** for image processing  
 
-Clone the repo and install dependencies:
+---
+
+## 📦 Installation
 
 ```bash
-git clone https://github.com/your-username/flower-image-generator.git
-cd flower-image-generator
+# Clone the repository
+git clone https://github.com/Bhavadharini18/flower_image_generator.git
+cd flower_image_generator
 
+# Create virtual environment (optional but recommended)
+python -m venv venv
+source venv/bin/activate  # Linux/Mac
+venv\Scripts\activate     # Windows
+
+# Install required packages
 pip install -r requirements.txt
